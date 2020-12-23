@@ -25,3 +25,16 @@ switch (Warez) {
   default:
     console.log("As usual kuni besharaf");
 }
+
+for(let warez = 0; warez <=5; warez++) {
+  console.log('he is kuni besharaf', warez)
+}
+
+//While loop
+// while(condition){
+// if condition true}
+//
+//
+// 
+//
+//
