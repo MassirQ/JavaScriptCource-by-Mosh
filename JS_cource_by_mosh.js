@@ -10,3 +10,18 @@ if (hour >= 6 && hour < 12) {
 } else if (hour >= 12 && hour < 18) {
   console.log("Good afternoon");
 } else console.log("Good evening");
+
+let Warez = "Works";
+
+switch (Warez) {
+  case "DontWork":
+    console.log("Kuni Besharaf");
+    break;
+
+  case "Works":
+    console.log("Not Kuni Besharaf");
+    break;
+
+  default:
+    console.log("As usual kuni besharaf");
+}
