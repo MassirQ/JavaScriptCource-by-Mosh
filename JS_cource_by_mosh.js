@@ -33,8 +33,3 @@ for(let warez = 0; warez <=5; warez++) {
 //While loop
 // while(condition){
 // if condition true}
-//
-//
-// 
-//
-//
