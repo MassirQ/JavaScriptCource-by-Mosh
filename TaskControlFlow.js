@@ -139,27 +139,41 @@
 // }
 
 
-let adress1 = {
-  street: "Wall Street",
-  city: "New York",
-  ZipCode: "89523",
+// let adress1 = {
+//   street: "Wall Street",
+//   city: "New York",
+//   ZipCode: "89523",
+// };
+// let adress2 = {
+//   street: "Wall Street",
+//   city: "New York",
+//   ZipCode: "89523",
+// };
+
+// function areEqual(adress1,adress2){
+//   return adress1.street === adress2.street &&
+//   adress1.city === adress2.city &&
+//   adress1.ZipCode === adress2.ZipCode;
+
+// }
+
+// function areSame(adress1,adress2){
+//   return adress1 === adress2;
+// }
+
+// console.log(areEqual(adress1,adress2));
+// console.log(areSame(adress1,adress2));
+
+let post = {
+  title: 'Kuni',
+  body: 'Besharaf',
+  author: 'Warez',
+  views: 20,
+  comments: [
+    {author:'Warez', body: 'kuni'},
+    {author:'Warezbesharaf', body: 'kunibesharaf'},
+  ],
+  isLive: true
+
 };
-let adress2 = {
-  street: "Wall Street",
-  city: "New York",
-  ZipCode: "89523",
-};
-
-function areEqual(adress1,adress2){
-  return adress1.street === adress2.street &&
-  adress1.city === adress2.city &&
-  adress1.ZipCode === adress2.ZipCode;
-
-}
-
-function areSame(adress1,adress2){
-  return adress1 === adress2;
-}
-
-console.log(areEqual(adress1,adress2));
-console.log(areSame(adress1,adress2));
+console.log(post);
