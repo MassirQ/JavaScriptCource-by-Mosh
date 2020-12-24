@@ -164,16 +164,17 @@
 // console.log(areEqual(adress1,adress2));
 // console.log(areSame(adress1,adress2));
 
-let post = {
-  title: 'Kuni',
-  body: 'Besharaf',
-  author: 'Warez',
-  views: 20,
-  comments: [
-    {author:'Warez', body: 'kuni'},
-    {author:'Warezbesharaf', body: 'kunibesharaf'},
-  ],
-  isLive: true
+// let post = {
+//   title: 'Kuni',
+//   body: 'Besharaf',
+//   author: 'Warez',
+//   views: 20,
+//   comments: [
+//     {author:'Warez', body: 'kuni'},
+//     {author:'Warezbesharaf', body: 'kunibesharaf'},
+//   ],
+//   isLive: true
 
-};
-console.log(post);
+// };
+
+let
