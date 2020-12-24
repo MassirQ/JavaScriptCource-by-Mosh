@@ -41,20 +41,33 @@
 //Math.floor(1.3)
 // 12 points --> licence suspended
 
-checkSpeed(180);
-function checkSpeed(speed) {
-  let speedLimit = 70;
-  const pointLimit = 12;
-  if (speed <= speedLimit) {
-    console.log("ok");
-  }
+// checkSpeed(180);
+// function checkSpeed(speed) {
+//   let speedLimit = 70;
+//   const pointLimit = 12;
+//   if (speed <= speedLimit) {
+//     console.log("ok");
+//   }
 
-  if (speed > speedLimit) {
-    let speedOverLimit = speed - speedLimit;
-    let points = Math.floor(speedOverLimit / 5);
+//   if (speed > speedLimit) {
+//     let speedOverLimit = speed - speedLimit;
+//     let points = Math.floor(speedOverLimit / 5);
 
-    if (points >= pointLimit) {
-      console.log("Your points is more than 12 so", "Licence Suspended");
-    } else console.log("your points", points);
-  }
+//     if (points >= pointLimit) {
+//       console.log("Your points is more than 12 so", "Licence Suspended");
+//     } else console.log("your points", points);
+//   }
+// }
+
+// Factory Function
+function createCircle(radius) {
+  return {
+    radius,
+    draw() {
+      console.log("draw");
+    },
+  };
 }
+
+const circle1 = createCircle(1);
+console.log(circle1);
