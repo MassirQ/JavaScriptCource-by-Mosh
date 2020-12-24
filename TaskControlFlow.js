@@ -93,12 +93,11 @@
 
 // console.log(circle.draw());
 
-
 // const numbers = [45,6658,5662,56532,489,41523,453,65586,45223,568989889,123];
 
 // console.log(Math.min(...numbers));
 // let whoIsMordagaw = 'Warez';
-// const warezMordagaw = 
+// const warezMordagaw =
 //   `"Hello, who is mordagaw? ${x.message}"`
 // ;
 
@@ -107,21 +106,60 @@
 // ZipCode
 // function shows adress
 
-const adress = {
-  street: 'Wall Street',
-  city: 'New York',
-  ZipCode: '89523'
+// const adress = {
+//   street: "Wall Street",
+//   city: "New York",
+//   ZipCode: "89523",
+// };
 
+// function showAdress(adress) {
+//   for (const key in adress) {
+//     if (adress.hasOwnProperty(key)) {
+//       const element = adress[key];
+//       console.log(key, element);
+//     }
+//   }
+// }
+
+// showAdress(adress);
+
+// function createAdress(street, city, ZipCode) {
+//   return {
+//     street,
+//     city,
+//     ZipCode,
+//   };
+// }
+
+// function Adress(street, city, ZipCode) {
+//   this.street = street;
+//   this.city = city;
+//   this.ZipCode = ZipCode;
+//   return this;
+// }
+
+
+let adress1 = {
+  street: "Wall Street",
+  city: "New York",
+  ZipCode: "89523",
+};
+let adress2 = {
+  street: "Wall Street",
+  city: "New York",
+  ZipCode: "89523",
 };
 
-function showAdress(adress){
-  for (const key in adress) {
-    if (adress.hasOwnProperty(key)) {
-      const element = adress[key];
-      console.log(key, element);
-      
-    }
-  }
-};
+function areEqual(adress1,adress2){
+  return adress1.street === adress2.street &&
+  adress1.city === adress2.city &&
+  adress1.ZipCode === adress2.ZipCode;
 
-showAdress(adress);
+}
+
+function areSame(adress1,adress2){
+  return adress1 === adress2;
+}
+
+console.log(areEqual(adress1,adress2));
+console.log(areSame(adress1,adress2));
